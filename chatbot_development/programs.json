@@ -1,0 +1,40 @@
+{
+  "programs": [
+    {
+      "program_name": "Искусственный интеллект",
+      "program_name_en": "Artificial Intelligence",
+      "description": "Магистерская программа по подготовке специалистов в области искусственного интеллекта и машинного обучения",
+      "website_url": "https://abit.itmo.ru/program/master/ai",
+      "program_file_path": "/educational-programs/ai/AI.pdf",
+      "degree_level": "master",
+      "duration_years": 2,
+      "language": "ru",
+      "faculty": "Факультет компьютерных наук",
+      "tags": ["AI", "машинное обучение", "нейросети", "data science"]
+    },
+    {
+      "program_name": "Управление ИИ-продуктами",
+      "program_name_en": "AI Product Management",
+      "description": "Программа подготовки менеджеров продуктов с технической экспертизой в области искусственного интеллекта",
+      "website_url": "https://abit.itmo.ru/program/master/ai_product",
+      "program_file_path": "/educational-programs/ai/AI_Product.pdf",
+      "degree_level": "master",
+      "duration_years": 2,
+      "language": "ru",
+      "faculty": "Факультет бизнеса и технологий",
+      "tags": ["менеджмент", "AI", "управление продуктами", "бизнес"]
+    }
+  ],
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2023-11-15",
+    "source": "Официальные документы университета",
+    "file_structure": {
+      "base_path": "/educational-programs/",
+      "subdirectories": {
+        "ai": "Программы по искусственному интеллекту",
+        "business": "Бизнес-программы"
+      }
+    }
+  }
+}
