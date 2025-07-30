@@ -6,3 +6,5 @@ free_analysis/src/
 chatbot_development/TOKEN.py
 
 chatbot_development/__pycache__/
+
+.DS_Store
