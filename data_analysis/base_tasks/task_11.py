@@ -7,7 +7,7 @@ import pandas as pd
 import numpy as np
 
 # Загрузка данных
-transactions = pd.read_parquet('../src/transaction_fraud_data.parquet')
+transactions = pd.read_parquet('../../free_analysis/src/transaction_fraud_data.parquet')
 
 # Извлечение количества уникальных продавцов за последний час
 transactions['unique_merchants'] = transactions['last_hour_activity'].apply(lambda x: x['unique_merchants'])

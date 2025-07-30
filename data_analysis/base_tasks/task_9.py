@@ -7,8 +7,8 @@ import pandas as pd
 import math
 
 # Загрузка данных
-transactions = pd.read_parquet('../src/transaction_fraud_data.parquet')
-exchange_rates = pd.read_parquet('../src/historical_currency_exchange.parquet')
+transactions = pd.read_parquet('../../free_analysis/src/transaction_fraud_data.parquet')
+exchange_rates = pd.read_parquet('../../free_analysis/src/historical_currency_exchange.parquet')
 
 # Фильтрация мошеннических операций
 fraud_trans = transactions[transactions['is_fraud'] == True].copy()

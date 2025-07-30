@@ -9,7 +9,7 @@ import pandas as pd
 import math
 
 # Загрузка данных
-transactions = pd.read_parquet('../src/transaction_fraud_data.parquet')
+transactions = pd.read_parquet('../../free_analysis/src/transaction_fraud_data.parquet')
 
 # Добавляем столбец с часом
 transactions['hour'] = transactions['timestamp'].dt.hour

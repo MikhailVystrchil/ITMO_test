@@ -7,7 +7,7 @@ import pandas as pd
 import math
 
 # Загрузка данных
-transactions = pd.read_parquet('../src/transaction_fraud_data.parquet')
+transactions = pd.read_parquet('../../free_analysis/src/transaction_fraud_data.parquet')
 
 # Фильтрация высокорисковых продавцов
 high_risk_trans = transactions[transactions['is_high_risk_vendor']]

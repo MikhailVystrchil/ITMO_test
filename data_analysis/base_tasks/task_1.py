@@ -6,7 +6,7 @@
 import pandas as pd
 
 # Загрузка данных
-transactions = pd.read_parquet('../src/transaction_fraud_data.parquet')
+transactions = pd.read_parquet('../../free_analysis/src/transaction_fraud_data.parquet')
 
 # Расчет доли
 total_transactions = len(transactions)

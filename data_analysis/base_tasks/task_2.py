@@ -6,7 +6,7 @@ Brazil,UK,Japan,Australia,Nigeria
 import pandas as pd
 
 # Загрузка данных
-transactions = pd.read_parquet('../src/transaction_fraud_data.parquet')
+transactions = pd.read_parquet('../../free_analysis/src/transaction_fraud_data.parquet')
 
 # Фильтрация и подсчет
 fraud_by_country = transactions[transactions['is_fraud']].groupby('country').size()
